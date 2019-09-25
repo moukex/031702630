@@ -157,7 +157,7 @@ def get_Answer(adate:str):
         answer = [sheng, cheng, xian, country, cun, hao, address5]
     final = {
         "姓名": name,
-        "电话": phone,
+        "手机": phone,
         "地址": answer
     }
     return json.dumps(final,ensure_ascii=False)
